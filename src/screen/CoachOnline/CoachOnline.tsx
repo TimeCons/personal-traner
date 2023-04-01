@@ -63,7 +63,7 @@ export default function CoachOnline() {
         <p>
           Prevede la possibilità di essere seguiti esclusivamente a distanza,
           oppure in maniera mista associando la parte online a sedute di
-          <i>personal training</i>.
+          <i> personal training</i>.
         </p>
         <p>
           In base agli obiettivi richiesti, alla disponibilità, al livello di

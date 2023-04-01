@@ -33,7 +33,7 @@ export default function About() {
           dall’altra. Quello che mi pongo di fare per le persone, con successo,
           è quindi aiutarle a raggiungere il benessere superando limiti mentali
           e fisici
-          <b>transforando</b> il loro corpo!
+          <b> transforando</b> il loro corpo!
         </p>
         <p>
           Inizio a lavorare subito dopo la laurea triennale approcciandomi al
