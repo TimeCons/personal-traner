@@ -24,12 +24,12 @@ export default function About() {
         </p>
         <p>
           Ci tengo ad iniziare questa mia presentazione spiegandovi quale è la
-          mia <b>mission</b>. Sono fermamente convinta che il <b>benessere</b>{" "}
+          mia <b>MISSION</b>. Sono fermamente convinta che il <b>BENESSERE</b>{" "}
           sia composto da una parte mentale e una fisica, indivisibili l’una
           dall’altra. Quello che mi pongo di fare per le persone, con successo,
           è quindi aiutarle a raggiungere il benessere superando limiti mentali
           e fisici
-          <b> transforando</b> il loro corpo!
+          <b> TRASFORMANDO</b> il loro corpo!
         </p>
         <p>
           Inizio a lavorare subito dopo la laurea triennale approcciandomi al
