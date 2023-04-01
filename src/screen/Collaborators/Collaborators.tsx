@@ -1,15 +1,9 @@
-import React from "react";
-import BackArrow from "../../assets/back-arrow";
 import Header from "../../components/Header";
-import PricingTab from "../../components/PricingTab";
-import { coachingOnline } from "../../data/coaching_online";
 import { Screen, useAppStore } from "../../zustand/AppStore";
 import "./Collaborators.css";
 const lorenzoTaniImage = require("../../assets/lorenzo-tani-fisioterapista.jpeg");
 
 export default function Collaborators() {
-  const { setScreen } = useAppStore();
-
   return (
     <div className="single-page about-page">
       <Header title="Collaboratori" fromScreen={Screen.coachingOnline} />

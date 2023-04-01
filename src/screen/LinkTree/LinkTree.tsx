@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppStore, Screen } from "../../zustand/AppStore";
 import "./LinkTree.css";
 

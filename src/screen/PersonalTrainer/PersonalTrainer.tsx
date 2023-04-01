@@ -6,7 +6,6 @@ import { Screen, useAppStore } from "../../zustand/AppStore";
 import ActionSheet from "actionsheet-react";
 
 export default function PersonalTrainer() {
-  const { setScreen } = useAppStore();
   const [selectedService, setSelectedService] = React.useState("");
   const [message, setMessage] = React.useState("");
 

@@ -1,8 +1,4 @@
-import React from "react";
-import BackArrow from "../../assets/back-arrow";
 import Header from "../../components/Header";
-import PricingTab from "../../components/PricingTab";
-import { coachingOnline } from "../../data/coaching_online";
 import { Screen, useAppStore } from "../../zustand/AppStore";
 import "./About.css";
 const aboutImage = require("../../assets/martina-lippi-about.jpeg");
