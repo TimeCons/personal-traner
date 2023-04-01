@@ -34,21 +34,21 @@ export default function CoachOnline() {
       <ActionSheet ref={ref}>
         <div className="action-sheet-container">
           <div>
-            <a href={`https://wa.me/393485000000?text=${message}`}>
+            <a href={`https://wa.me/3755174423?text=${message}`}>
               Contatta via Whatsapp!
             </a>
           </div>
           <div>
             {" "}
             <a
-              href={`mailto:maritna@dfdf.com?subject=Contatto da sito coaching online&body=${message}`}
+              href={`mailto:mlippi.95@gmail.com?subject=Contatto da sito coaching online&body=${message}`}
             >
               Contatta via Email!
             </a>
           </div>
           <div>
             {" "}
-            <a href="tel:3485000000">Contatta via telefono!</a>
+            <a href="tel:3755174423">Contatta via telefono!</a>
           </div>
         </div>
       </ActionSheet>
