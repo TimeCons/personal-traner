@@ -2,7 +2,7 @@ import React from "react";
 import { useAppStore, Screen } from "../../zustand/AppStore";
 import "./LinkTree.css";
 
-const tumbnail = require("../../assets/martina-lippi-pt.png");
+const tumbnail = require("../../assets/martina-lippi-about.jpeg");
 
 export default function LinkTree() {
   const { setScreen } = useAppStore();

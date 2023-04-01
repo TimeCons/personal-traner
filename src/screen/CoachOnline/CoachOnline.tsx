@@ -56,18 +56,18 @@ export default function CoachOnline() {
       <div className="post">
         <h2>CHE COS’E’?</h2>
         <p>
-          Il servizio di coaching online è rivolto a qualsiasi tipologia di
-          persona che voglia intraprendere un percorso di cambiamento,
+          Il servizio di <i>coaching online</i> è rivolto a qualsiasi tipologia
+          di persona che voglia intraprendere un percorso di cambiamento,
           performance o salute.
         </p>
         <p>
           Prevede la possibilità di essere seguiti esclusivamente a distanza,
           oppure in maniera mista associando la parte online a sedute di
-          personal training.
+          <i>personal training</i>.
         </p>
         <p>
           In base agli obiettivi richiesti, alla disponibilità, al livello di
-          partenza propongo 3 tipologie di coaching:
+          partenza propongo <b>3 tipologie di coaching</b>:
         </p>
       </div>
       <div className="pricing">

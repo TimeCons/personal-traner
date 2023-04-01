@@ -54,8 +54,8 @@ export default function PersonalTrainer() {
       <div className="post">
         <h2>CHE COS’E’?</h2>
         <p>
-          La seduta di Personal Training (1h) è un momento in cui vi aiuterò,
-          tramite il mio supporto durante l’allenamento, ad insegnarvi,
+          La seduta di <b>Personal Training</b> (1h) è un momento in cui vi
+          aiuterò, tramite il mio supporto durante l’allenamento, ad insegnarvi,
           spingervi oltre i vostri limiti, farvi divertire e progredire verso il
           raggiungimento dei vostri obiettivi che non sembreranno più così
           lontani!

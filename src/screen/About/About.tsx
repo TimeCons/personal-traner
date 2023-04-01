@@ -26,23 +26,31 @@ export default function About() {
           Sono Martina Lippi laureata in Scienze Motorie laurea triennale e
           laurea magistrale.
         </p>
-
+        <p>
+          Ci tengo ad iniziare questa mia presentazione spiegandovi quale è la
+          mia <b>mission</b>. Sono fermamente convinta che il <b>benessere</b>{" "}
+          sia composto da una parte mentale e una fisica, indivisibili l’una
+          dall’altra. Quello che mi pongo di fare per le persone, con successo,
+          è quindi aiutarle a raggiungere il benessere superando limiti mentali
+          e fisici
+          <b>transforando</b> il loro corpo!
+        </p>
         <p>
           Inizio a lavorare subito dopo la laurea triennale approcciandomi al
-          mondo del personal trainering in studi personal dedicandomi
-          principalmente all'<b>allenamento funzionale e posturale</b>. Affianco
-          inoltre la parte sportiva come <b>preparatrice atletica</b> nel gioco
-          del tennis e alcune esperienze nelle scuole con i bambini.
+          mondo del personal training in studi privati dedicandomi
+          principalmente all’allenamento funzionale e posturale. Affianco
+          inoltre a queste esperienze la parte sportiva come preparatrice
+          atletica nel gioco del tennis.
         </p>
         <p>
-          Grazie a vari corsi ed esperienza sul campo inizio a lavorare nelle
-          palestre dove mi dedico esclusivamente al servizio di personal
-          trainer.
+          Grazie all’ampliamento della mia formazione e alla crescente
+          esperienza sul campo inizio a lavorare nelle palestre dove mi dedico
+          esclusivamente al servizio di personal training.
         </p>
         <p>
-          La mia MISSION è portare sempre più persone verso uno stile di vita
-          sano che gli permetta di stare bene con se stessi e di raggiungere i
-          propri obiettivi!
+          Mi piace stare in continuo aggiornamento e migliorarmi sempre per
+          crescere professionalmente confrontandomi con i grandi coach del
+          settore.
         </p>
       </div>
     </div>
