@@ -1,0 +1,58 @@
+.lt-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(241, 150, 143, 0.5) 0,
+    rgba(241, 150, 143, 0.5) 0.4px,
+    transparent 0,
+    transparent 50%
+  );
+}
+
+.lt-container {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.lt-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  color: #fff;
+  background-color: #f1968f;
+  background-size: 20px 3px;
+  background-position: 0 0px, 10 10px;
+  font-size: medium;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+@keyframes buttonsMargin {
+  from {
+    margin: 30px;
+  }
+  to {
+    margin: 10px;
+  }
+}
+
+.lt-button:hover {
+  background-color: black;
+  color: #fff;
+}
