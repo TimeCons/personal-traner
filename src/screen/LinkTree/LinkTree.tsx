@@ -17,8 +17,8 @@ export default function LinkTree() {
           height={100}
           style={{ borderRadius: 50 }}
         />
-        <h1 className="main-title">Martina Lippi - Fitness Coach</h1>
-
+        <h1 className="main-title">Martina Lippi</h1>
+        <h1 className="main-title">Fitness Coach</h1>
         <button
           onClick={() => {
             setScreen(Screen.about);
