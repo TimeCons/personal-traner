@@ -17,7 +17,7 @@ export default function LinkTree() {
           height={100}
           style={{ borderRadius: 50 }}
         />
-        <h1 className="main-title">Martina Lippi</h1>
+        <h1 className="main-title" style={{marginBottom:4}}>Martina Lippi</h1>
         <h1 className="main-title">Fitness Coach</h1>
         <button
           onClick={() => {
