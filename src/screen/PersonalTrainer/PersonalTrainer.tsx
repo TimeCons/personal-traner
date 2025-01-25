@@ -67,7 +67,7 @@ export default function PersonalTrainer() {
           <li>live check mensile</li>
         </ul>
         <p>
-          Lezione singola <b>45€</b>{" "}
+          Lezione singola <b>40€</b>{" "}
         </p>
       </div>
       <div className="pricing">
