@@ -8,6 +8,7 @@ interface PricingTabProps {
   voices: string[];
   rowed?: boolean;
   nolimit?: boolean;
+  hideMonthly?: boolean;
   onClick?: () => void;
 }
 
@@ -18,6 +19,7 @@ export default function PricingTab({
   description,
   rowed,
   nolimit,
+  hideMonthly = false,
   onClick,
 }: PricingTabProps) {
   return (
@@ -28,7 +30,7 @@ export default function PricingTab({
       </div>
       <div className="pt-price-container">
         <p className="pt-price">{price} €</p>
-        <p style={{ color: "gray", margin: 0 }}>al mese</p>
+        {!hideMonthly && (<p style={{ color: "gray", margin: 0 }}>al mese</p>)}
       </div>
       <div className="pt-voices">
         {voices.map((voice, index) => (
