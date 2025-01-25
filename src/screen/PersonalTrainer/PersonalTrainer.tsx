@@ -135,40 +135,40 @@ export default function PersonalTrainer() {
             handleOpen("piano semestrale - " + personalTrainer[5].title);
           }}
         />
-        <h2 style={{ textAlign: "center" }}>Pacchetti lezioni</h2>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "center",
+      </div>
+      <h2 style={{ textAlign: "center" }}>Pacchetti lezioni</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <PricingTab
+          rowed
+          title={personalTrainer[2].title}
+          description={personalTrainer[2].description}
+          price={personalTrainer[2].price}
+          voices={personalTrainer[2].voices}
+          nolimit
+          hideMonthly
+          onClick={() => {
+            handleOpen("pacchetti lezioni - " + personalTrainer[2].title);
           }}
-        >
-          <PricingTab
-            rowed
-            title={personalTrainer[2].title}
-            description={personalTrainer[2].description}
-            price={personalTrainer[2].price}
-            voices={personalTrainer[2].voices}
-            nolimit
-            hideMonthly
-            onClick={() => {
-              handleOpen("pacchetti lezioni - " + personalTrainer[2].title);
-            }}
-          />
-          <PricingTab
-            rowed
-            title={personalTrainer[3].title}
-            description={personalTrainer[3].description}
-            price={personalTrainer[3].price}
-            voices={personalTrainer[3].voices}
-            nolimit
-            hideMonthly
-            onClick={() => {
-              handleOpen("pacchetti lezioni - " + personalTrainer[3].title);
-            }}
-          />
-        </div>
+        />
+        <PricingTab
+          rowed
+          title={personalTrainer[3].title}
+          description={personalTrainer[3].description}
+          price={personalTrainer[3].price}
+          voices={personalTrainer[3].voices}
+          nolimit
+          hideMonthly
+          onClick={() => {
+            handleOpen("pacchetti lezioni - " + personalTrainer[3].title);
+          }}
+        />
       </div>
     </div>
   );
