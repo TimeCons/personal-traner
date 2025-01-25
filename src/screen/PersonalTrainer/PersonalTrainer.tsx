@@ -151,6 +151,7 @@ export default function PersonalTrainer() {
             price={personalTrainer[2].price}
             voices={personalTrainer[2].voices}
             nolimit
+            hideMonthly
             onClick={() => {
               handleOpen("pacchetti lezioni - " + personalTrainer[2].title);
             }}
@@ -162,6 +163,7 @@ export default function PersonalTrainer() {
             price={personalTrainer[3].price}
             voices={personalTrainer[3].voices}
             nolimit
+            hideMonthly
             onClick={() => {
               handleOpen("pacchetti lezioni - " + personalTrainer[3].title);
             }}
