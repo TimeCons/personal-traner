@@ -103,38 +103,39 @@ export default function PersonalTrainer() {
             }}
           />
         </div>
-        <h2 style={{ textAlign: "center" }}>Piano Semestrale</h2>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "center",
+      </div>
+      <h2 style={{ textAlign: "center" }}>Piano Semestrale</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <PricingTab
+          rowed
+          title={personalTrainer[4].title}
+          description={personalTrainer[4].description}
+          price={personalTrainer[4].price}
+          voices={personalTrainer[4].voices}
+          nolimit
+          onClick={() => {
+            handleOpen("piano semestrale - " + personalTrainer[4].title);
           }}
-        >
-          <PricingTab
-            rowed
-            title={personalTrainer[4].title}
-            description={personalTrainer[4].description}
-            price={personalTrainer[4].price}
-            voices={personalTrainer[4].voices}
-            nolimit
-            onClick={() => {
-              handleOpen("piano semestrale - " + personalTrainer[4].title);
-            }}
-          />
-          <PricingTab
-            rowed
-            title={personalTrainer[5].title}
-            description={personalTrainer[5].description}
-            price={personalTrainer[5].price}
-            voices={personalTrainer[5].voices}
-            nolimit
-            onClick={() => {
-              handleOpen("piano semestrale - " + personalTrainer[5].title);
-            }}
-          />
-          <h2 style={{ textAlign: "center" }}>Pacchetti lezioni</h2>
+        />
+        <PricingTab
+          rowed
+          title={personalTrainer[5].title}
+          description={personalTrainer[5].description}
+          price={personalTrainer[5].price}
+          voices={personalTrainer[5].voices}
+          nolimit
+          onClick={() => {
+            handleOpen("piano semestrale - " + personalTrainer[5].title);
+          }}
+        />
+        <h2 style={{ textAlign: "center" }}>Pacchetti lezioni</h2>
         <div
           style={{
             display: "flex",
