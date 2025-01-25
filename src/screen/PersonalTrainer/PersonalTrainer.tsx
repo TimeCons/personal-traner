@@ -157,6 +157,18 @@ export default function PersonalTrainer() {
             handleOpen("pacchetti lezioni - " + personalTrainer[2].title);
           }}
         />
+        <PricingTab
+          rowed
+          title={personalTrainer[3].title}
+          description={personalTrainer[3].description}
+          price={personalTrainer[3].price}
+          voices={personalTrainer[3].voices}
+          nolimit
+          hideMonthly
+          onClick={() => {
+            handleOpen("pacchetti lezioni - " + personalTrainer[3].title);
+          }}
+        />
       </div>
     </div>
   );
