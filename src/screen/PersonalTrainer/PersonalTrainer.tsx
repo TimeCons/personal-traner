@@ -71,7 +71,7 @@ export default function PersonalTrainer() {
         </p>
       </div>
       <div className="pricing">
-        <h2 style={{ textAlign: "center" }}>Piani Mensili</h2>
+        <h2 style={{ textAlign: "center" }}>Piano Mensile/Trimestrale</h2>
         <div
           style={{
             display: "flex",
@@ -103,39 +103,7 @@ export default function PersonalTrainer() {
             }}
           />
         </div>
-        <h2 style={{ textAlign: "center" }}>Piani Trimestrali</h2>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <PricingTab
-            rowed
-            title={personalTrainer[2].title}
-            description={personalTrainer[2].description}
-            price={personalTrainer[2].price}
-            voices={personalTrainer[2].voices}
-            nolimit
-            onClick={() => {
-              handleOpen("piano trimestrale - " + personalTrainer[2].title);
-            }}
-          />
-          <PricingTab
-            rowed
-            title={personalTrainer[3].title}
-            description={personalTrainer[3].description}
-            price={personalTrainer[3].price}
-            voices={personalTrainer[3].voices}
-            nolimit
-            onClick={() => {
-              handleOpen("piano trimestrale - " + personalTrainer[3].title);
-            }}
-          />
-        </div>
-        <h2 style={{ textAlign: "center" }}>Piani Semestrali</h2>
+        <h2 style={{ textAlign: "center" }}>Piano Semestrale</h2>
         <div
           style={{
             display: "flex",
