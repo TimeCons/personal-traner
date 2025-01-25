@@ -89,15 +89,6 @@ export default function CoachOnline() {
             handleOpen(coachingOnline[1].title);
           }}
         />
-        <PricingTab
-          title={coachingOnline[2].title}
-          description={coachingOnline[2].description}
-          price={coachingOnline[2].price}
-          voices={coachingOnline[2].voices}
-          onClick={() => {
-            handleOpen(coachingOnline[2].title);
-          }}
-        />
       </div>
     </div>
   );
