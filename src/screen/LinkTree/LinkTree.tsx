@@ -43,14 +43,6 @@ export default function LinkTree() {
         >
           Personal Trainer
         </button>
-        <button
-          onClick={() => {
-            setScreen(Screen.collaborazioni);
-          }}
-          className="lt-button"
-        >
-          Collaborazioni
-        </button>
       </div>
     </div>
   );
