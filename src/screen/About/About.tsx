@@ -36,7 +36,7 @@ export default function About() {
           mondo del personal training in studi privati dedicandomi
           principalmente all’allenamento funzionale e posturale. Affianco
           inoltre a queste esperienze la parte sportiva come preparatrice
-          atletica nel gioco del tennis.
+          atletica.
         </p>
         <p>
           Grazie all’ampliamento della mia formazione e alla crescente
