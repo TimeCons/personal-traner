@@ -6,6 +6,7 @@ import { Screen, useAppStore } from "./zustand/AppStore";
 import PersonalTrainer from "./screen/PersonalTrainer/PersonalTrainer";
 import About from "./screen/About/About";
 import Collaborators from "./screen/Collaborators/Collaborators";
+import Sheets from "./screen/Sheets/Sheets";
 
 function App() {
   const { screen } = useAppStore();
@@ -22,6 +23,8 @@ function App() {
         return <About />;
       case Screen.collaborazioni:
         return <Collaborators />;
+      case Screen.sheets:
+        return <Sheets />;
 
       default:
         return <LinkTree />;

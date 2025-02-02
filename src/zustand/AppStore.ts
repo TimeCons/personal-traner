@@ -6,6 +6,7 @@ export enum Screen {
   personalTrainer,
   collaborazioni,
   about,
+  sheets,
 }
 
 interface AppState {

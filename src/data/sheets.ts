@@ -1,0 +1,42 @@
+export const sheets = [
+  {
+    id: 1,
+    title: "DONNA BASE",
+    description: "",
+    price: 25,
+    voices: [],
+    url_action: "https://www.google.com",
+  },
+  {
+    id: 2,
+    title: "DONNA AVANZATA",
+    description: "",
+    price: 25,
+    voices: [],
+    url_action: "https://www.google.com",
+  },
+  {
+    id: 3,
+    title: "UOMO BASE",
+    description: "",
+    price: 25,
+    voices: [],
+    url_action: "https://www.google.com",
+  },
+  {
+    id: 4,
+    title: "UOMO AVANZATA",
+    description: "",
+    price: 25,
+    voices: [],
+    url_action: "https://www.google.com",
+  },
+  {
+    id: 5,
+    title: "GLUTEI",
+    description: "",
+    price: 29,
+    voices: [],
+    url_action: "https://www.google.com",
+  },
+];

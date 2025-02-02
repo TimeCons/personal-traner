@@ -17,7 +17,9 @@ export default function LinkTree() {
           height={100}
           style={{ borderRadius: 50 }}
         />
-        <h1 className="main-title" style={{marginBottom:4}}>Martina Lippi</h1>
+        <h1 className="main-title" style={{ marginBottom: 4 }}>
+          Martina Lippi
+        </h1>
         <h1 className="main-title">Fitness Coach</h1>
         <button
           onClick={() => {
@@ -42,6 +44,14 @@ export default function LinkTree() {
           className="lt-button"
         >
           Personal Trainer
+        </button>
+        <button
+          onClick={() => {
+            setScreen(Screen.sheets);
+          }}
+          className="lt-button"
+        >
+          Schede di allenamento
         </button>
       </div>
     </div>

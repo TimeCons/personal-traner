@@ -9,6 +9,7 @@ interface PricingTabProps {
   rowed?: boolean;
   nolimit?: boolean;
   hideMonthly?: boolean;
+  fullWidth?: boolean;
   onClick?: () => void;
 }
 
@@ -20,17 +21,21 @@ export default function PricingTab({
   rowed,
   nolimit,
   hideMonthly = false,
+  fullWidth,
   onClick,
 }: PricingTabProps) {
   return (
-    <div className={`${rowed ? "pricing-banner-rowed" : "pricing-banner"}`}>
+    <div
+      className={`${rowed ? "pricing-banner-rowed" : "pricing-banner"}`}
+      style={{ minWidth: fullWidth ? "90%" : "43%" }}
+    >
       <div className="pricing-banner-title">
         <h3>{title}</h3>
         <p style={{ color: "gray", fontSize: 13 }}>{description}</p>
       </div>
       <div className="pt-price-container">
         <p className="pt-price">{price} €</p>
-        {!hideMonthly && (<p style={{ color: "gray", margin: 0 }}>al mese</p>)}
+        {!hideMonthly && <p style={{ color: "gray", margin: 0 }}>al mese</p>}
       </div>
       <div className="pt-voices">
         {voices.map((voice, index) => (
